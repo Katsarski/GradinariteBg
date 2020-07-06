@@ -27,6 +27,7 @@
 # ignore everything in the root except the "wp-content" directory.
 /*
 !wp-content/
+!mycustomdb/
 
 # ignore everything in the "wp-content" directory, except:
 # mu-plugins, plugins, and themes directories
@@ -61,7 +62,6 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
-!mycustomdb/
 
 # ignore compiled files
 *.com
