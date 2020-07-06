@@ -1,0 +1,1505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DWT Listing Framework\n"
+"POT-Creation-Date: 2020-04-21 11:44+0500\n"
+"PO-Revision-Date: 2020-04-21 11:44+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: cpt/events.php:24
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:424
+msgid "Events"
+msgstr "الأحداث"
+
+#: cpt/events.php:50
+msgid "Event Categories"
+msgstr "التصنيفات"
+
+#: cpt/events.php:58 cpt/listing.php:70
+msgid "Tags"
+msgstr "الوسوم"
+
+#: cpt/listing.php:23
+msgid "Listings"
+msgstr "الإعلانات"
+
+#: cpt/listing.php:49
+msgid "Categories / Features"
+msgstr "الفئات/الميزات"
+
+#: cpt/listing.php:79
+msgid "Price Type"
+msgstr "نوع السعر"
+
+#: cpt/listing.php:88
+msgid "Currency"
+msgstr "العملة"
+
+#: cpt/listing.php:111 index.php:372
+msgid "Location"
+msgstr "الموقع"
+
+#: cpt/post_types.php:11
+msgid "Map Countries"
+msgstr "حدد البلدان"
+
+#: cpt/post_types.php:26
+msgid "Claims"
+msgstr "المطالبات"
+
+#: cpt/post_types.php:38
+msgid "Form Fields"
+msgstr "حقول النموذج"
+
+#: cpt/post_types.php:61 metaboxes/claim.php:67
+msgid "Claim Status"
+msgstr "الحالة"
+
+#: cpt/post_types.php:62
+msgid "Claimer"
+msgstr "المطالب"
+
+#: cpt/post_types.php:63
+msgid "Contact No"
+msgstr "رقم الاتصال"
+
+#: cpt/users.php:8
+msgid "Package Information"
+msgstr "معلومات المستخدم"
+
+#: cpt/users.php:11
+msgid "Package Name"
+msgstr "اسم الحزمة"
+
+#: cpt/users.php:43 metaboxes/events.php:140 metaboxes/listings.php:382
+#: metaboxes/listings.php:473 metaboxes/listings.php:483
+#: metaboxes/listings.php:636 metaboxes/listings.php:647
+#: metaboxes/listings.php:658 metaboxes/listings.php:669
+#: metaboxes/packages.php:141 metaboxes/packages.php:151
+#: metaboxes/packages.php:169 metaboxes/packages.php:179
+#: metaboxes/packages.php:189 metaboxes/packages.php:207
+#: metaboxes/packages.php:217 metaboxes/packages.php:227
+msgid "Select an option"
+msgstr "حدد اختيارا"
+
+#: cpt/users.php:62
+msgid "User selected package"
+msgstr "الباقة"
+
+#: functions.php:153
+msgid "Email is not resgistered with us."
+msgstr "لا يتم إرسال البريد الكتروني معنا."
+
+#: functions.php:167
+msgid "Event Expire"
+msgstr "انتهاء صلاحية الحدث"
+
+#: functions.php:168
+msgid "Event has been expired"
+msgstr "انتهت مدة صلاحية الحدث"
+
+#: functions.php:202
+msgid "Listing Expire"
+msgstr "انتهاء صلاحية الإدراج"
+
+#: functions.php:203
+msgid "Listing has been expired"
+msgstr "انتهت صلاحية الإدراج"
+
+#: functions.php:232
+msgid "New Ad"
+msgstr "إعلان جديد"
+
+#: functions.php:233
+msgid "Got new ad"
+msgstr "حصلت إعلان جديد"
+
+#: functions.php:295
+msgid "You have reported this listing already."
+msgstr "لقد قمت بإضافته مسبقاً."
+
+#: functions.php:314
+msgid "Ad Reported"
+msgstr "تم الإبلاغ عن الإعلان"
+
+#: functions.php:315
+msgid "Users reported this listing, please check it. "
+msgstr "وذكر المستخدمون هذا الإعلان ، يرجى التحقق من ذلك."
+
+#: functions.php:341
+msgid "You have reported this listing successfully."
+msgstr "لقد قمت بإضافته مسبقاً."
+
+#: functions.php:367
+msgid "New Message"
+msgstr "رسالة جديدة"
+
+#: functions.php:368
+msgid "Got new message on listing"
+msgstr "حصلت علي رسالة جديده علي الإعلان"
+
+#: functions.php:389 functions.php:1144
+msgid "Message sent successfully."
+msgstr "تم إرسال الرسالة بنجاح."
+
+#: functions.php:392 functions.php:599 functions.php:667 functions.php:1147
+msgid "Message not sent, please try again later."
+msgstr "لم يتم إرسال الرسالة ، الرجاء المحاولة مره أخرى لاحقا."
+
+#: functions.php:415
+msgid "You claim has been declined."
+msgstr "كنت قد وضعت النظام."
+
+#: functions.php:418
+msgid "You have claimed this listing already."
+msgstr "لقد قمت بإضافته مسبقاً."
+
+#: functions.php:457 functions.php:573 functions.php:641
+msgid "Claim Listing"
+msgstr "التبليغ عن الإعلان"
+
+#: functions.php:458
+msgid "Users claim this listing, please check it. "
+msgstr "المستخدمين المطالبة بهذه القائمة ، يرجى التحقق من ذلك."
+
+#: functions.php:476
+msgid "Your claim has been submited successfully & waiting for approval."
+msgstr "لقد تمت مطالبتك بنجاح وانتظار الموافقة."
+
+#: functions.php:504
+msgid "Listing author can't post review."
+msgstr "كاتب القائمة لا يمكن نشر المراجعة."
+
+#: functions.php:516 functions.php:532
+msgid "Review Updated Successfully."
+msgstr "مراجعه تم تحديثها بنجاح."
+
+#: functions.php:574 functions.php:642
+msgid "You have a new review, please check it. "
+msgstr "لديك مراجعه جديده ، يرجى التحقق من ذلك."
+
+#: functions.php:594 functions.php:662
+msgid "Review Posted Successfully."
+msgstr "تم نشر المراجعة بنجاح"
+
+#: functions.php:596 functions.php:664
+msgid "Review posted successfully & waiting for admin approval."
+msgstr "تم نشر المراجعة بنجاح وانتظار موافقه المشرف."
+
+#: functions.php:712
+msgid "Listing Ownership Changed"
+msgstr "تغيير ملكيه القائمة"
+
+#: functions.php:713 functions.php:747
+msgid "The ownership of your listing has been changed, please check it. "
+msgstr "تم تغيير ملكيه القائمة الخاصة بك ، يرجى التحقق من ذلك."
+
+#: functions.php:746
+msgid "Claim Listing Approval"
+msgstr "الموافقة علي قائمه المطالبات"
+
+#: functions.php:783
+msgid "Listing Claim Declined"
+msgstr "رفض المطالبة بالادراج"
+
+#: functions.php:784
+msgid "Unfortunately! your claim has been declined, please check it. "
+msgstr "ول الاسف! تم رفض مطالبتك ، يرجى التحقق من ذلك."
+
+#: functions.php:848
+msgid "Reply Updated Successfully."
+msgstr "تم تحديث الرد بنجاح."
+
+#: functions.php:871
+msgid "Listing Review Reply"
+msgstr "رد مراجعه القائمة"
+
+#: functions.php:872
+msgid "You received a new reply, please check it. "
+msgstr "تلقيت ردا جديدا ، يرجى التحقق من ذلك."
+
+#: functions.php:890
+msgid "Reply Posted Successfully."
+msgstr "تم نشر الرد بنجاح."
+
+#: functions.php:892
+msgid "Reply not sent, please try again later."
+msgstr "لم يتم إرسال الرد ، الرجاء المحاولة مره أخرى لاحقا."
+
+#: functions.php:969
+msgid "To : "
+msgstr "الى : "
+
+#: functions.php:970
+msgid "From : "
+msgstr "من :"
+
+#: functions.php:975 functions.php:997
+msgid "New Event"
+msgstr "حدث جديد من"
+
+#: functions.php:976
+msgid "Got new event"
+msgstr "حصلت إعلان جديد"
+
+#: functions.php:998
+msgid "You event created"
+msgstr "تم إنشاء الحدث بنجاح."
+
+#: functions.php:1040
+msgid "Downtown Packages"
+msgstr ""
+"هذا الخيار سوف تعمل فقط عندما (woocommerce البرنامج المساعد) هو أكتيفيتيد & "
+"(وسط الحزم) يتم إنشاء."
+
+#: functions.php:1123
+msgid "New Notification"
+msgstr "إضافة إشعار جديد"
+
+#: functions.php:1124
+msgid "You have a new email from"
+msgstr "لقد تلقيت بريدا الكترونيا جديدا"
+
+#: index.php:231
+msgid "Timepicker"
+msgstr "منتقي الوقت"
+
+#: index.php:232
+msgid "Sunday"
+msgstr "الأحد"
+
+#: index.php:233
+msgid "Monday"
+msgstr "الإثنين"
+
+#: index.php:234
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: index.php:235
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: index.php:236
+msgid "Thursday"
+msgstr "الخميس"
+
+#: index.php:237
+msgid "Friday"
+msgstr "الجمعة"
+
+#: index.php:238
+msgid "Saturday"
+msgstr "السبت"
+
+#: index.php:239
+msgid "Sun"
+msgstr "الأحد"
+
+#: index.php:240
+msgid "Mon"
+msgstr "الإثنين"
+
+#: index.php:241
+msgid "Tue"
+msgstr "الثلاثاء"
+
+#: index.php:242
+msgid "Wed"
+msgstr "الاربعاء"
+
+#: index.php:243
+msgid "Thu"
+msgstr "الخميس"
+
+#: index.php:244
+msgid "Fri"
+msgstr "الجمعة"
+
+#: index.php:245
+msgid "Sat"
+msgstr "السبت"
+
+#: index.php:246
+msgid "Su"
+msgstr "الأحد"
+
+#: index.php:247
+msgid "Mo"
+msgstr "الإثنين"
+
+#: index.php:248
+msgid "Tu"
+msgstr "الثلاثاء"
+
+#: index.php:249
+msgid "We"
+msgstr "الأربعاء"
+
+#: index.php:250
+msgid "Th"
+msgstr "خميس"
+
+#: index.php:251
+msgid "Fr"
+msgstr "الجمعة"
+
+#: index.php:252
+msgid "Sa"
+msgstr "سبت"
+
+#: index.php:253
+msgid "January"
+msgstr "يناير"
+
+#: index.php:254
+msgid "February"
+msgstr "فبراير"
+
+#: index.php:255
+msgid "March"
+msgstr "مارس"
+
+#: index.php:256
+msgid "April"
+msgstr "ابريل"
+
+#: index.php:257 index.php:269
+msgid "May"
+msgstr ""
+"عملية التثبيت بدأت. قد تستغرق هذه العملية بعض الوقت، لذا يرجى الانتظار ."
+
+#: index.php:258
+msgid "June"
+msgstr "يونيو"
+
+#: index.php:259 index.php:271
+msgid "July"
+msgstr "يوليو"
+
+#: index.php:260
+msgid "August"
+msgstr "أغسطس"
+
+#: index.php:261
+msgid "September"
+msgstr "سبتمبر"
+
+#: index.php:262
+msgid "October"
+msgstr "أكتوبر"
+
+#: index.php:263
+msgid "November"
+msgstr "نوفمبر"
+
+#: index.php:264
+msgid "December"
+msgstr "ديسمبر"
+
+#: index.php:265
+msgid "Jan"
+msgstr "يناير"
+
+#: index.php:266
+msgid "Feb"
+msgstr "فبراير"
+
+#: index.php:267
+msgid "Mar"
+msgstr "مارس"
+
+#: index.php:268
+msgid "Apr"
+msgstr "أبريل"
+
+#: index.php:270
+msgid "Jun"
+msgstr "يونيو"
+
+#: index.php:272
+msgid "Aug"
+msgstr "أغسطس"
+
+#: index.php:273
+msgid "Sep"
+msgstr "سبتمبر"
+
+#: index.php:274
+msgid "Oct"
+msgstr "أكتوبر"
+
+#: index.php:275
+msgid "Nov"
+msgstr "نوفمبر"
+
+#: index.php:276
+msgid "Dec"
+msgstr "ديسمبر"
+
+#: index.php:277
+msgid "Today"
+msgstr "اليوم"
+
+#: index.php:278
+msgid "Clear"
+msgstr "مسح"
+
+#: index.php:279
+msgid "dateFormat"
+msgstr "dateFormat"
+
+#: index.php:280
+msgid "Are you sure you want to remove this image?"
+msgstr "هل أنت متأكد من حذف هذه الصورة؟"
+
+#: index.php:281
+msgid "Select Images"
+msgstr "اختيار الصور"
+
+#: index.php:386 metaboxes/listings.php:552
+msgid "N/A"
+msgstr "غير مطابق"
+
+#: metaboxes/categories.php:18
+msgid "Category Icon"
+msgstr "ايكونة الفئة"
+
+#: metaboxes/categories.php:19 metaboxes/categories.php:35
+msgid "icon-soccer"
+msgstr "أيقونه-كره القدم"
+
+#: metaboxes/categories.php:20 metaboxes/categories.php:36
+msgid "Check Theme Icons List."
+msgstr "تحقق من قائمه أيقونات السمات."
+
+#: metaboxes/categories.php:32
+msgid "Category Icons"
+msgstr "أيقونات الفئة"
+
+#: metaboxes/claim.php:21
+msgid "Detial About Claim"
+msgstr "نبذه عن المطالبة"
+
+#: metaboxes/claim.php:50
+msgid "Claimed By"
+msgstr "مطالبة الملكية بواسطة"
+
+#: metaboxes/claim.php:55
+msgid "Claimed Author Name."
+msgstr "يدعي اسم المؤلف."
+
+#: metaboxes/claim.php:60
+msgid "Claim Detials"
+msgstr "مطالبه ديتيالس"
+
+#: metaboxes/claim.php:62
+msgid "Additional proof to expedite your claim approval..."
+msgstr "دليل إضافي للإسراع بالموافقة علي مطالبتك..."
+
+#: metaboxes/claim.php:70
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+#: metaboxes/claim.php:71
+msgid "Approved"
+msgstr "تمت الموافقة"
+
+#: metaboxes/claim.php:72
+msgid "Decline"
+msgstr "الغاء"
+
+#: metaboxes/claim.php:74
+msgid "Status for current claim"
+msgstr "حاله المطالبة الحالية"
+
+#: metaboxes/claim.php:79
+msgid "Claimer Contact"
+msgstr ""
+"%site_name%,% ad_owner%,% ad_title%,% ad_link%,% claimed_by%,% claimer_email"
+"%,% claimer_contact%,% claim_details%, سيتم ترجمتها وفقا لذلك."
+
+#: metaboxes/claim.php:82
+msgid "Claimer contact number"
+msgstr "رقم الاتصال الخاص بك"
+
+#: metaboxes/events.php:22
+msgid "Events Fields"
+msgstr "حقول الاحداث"
+
+#: metaboxes/events.php:121 metaboxes/listings.php:354
+#: metaboxes/listings.php:365
+msgid "image not found"
+msgstr "لم يتم العثور علي الصورة"
+
+#: metaboxes/events.php:129
+msgid "Event Gallery"
+msgstr "معرض الاحداث"
+
+#: metaboxes/events.php:133
+msgid "Event Images"
+msgstr "صور الحدث"
+
+#: metaboxes/events.php:137
+msgid "Select Category"
+msgstr "اختر تصنيف"
+
+#: metaboxes/events.php:139
+msgid "Select Event Category"
+msgstr "حدد فئة الحدث"
+
+#: metaboxes/events.php:143
+msgid "Select event category"
+msgstr "حدد فئة الحدث"
+
+#: metaboxes/events.php:148
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: metaboxes/events.php:150
+msgid "+99 3331 234567"
+msgstr "+ 99 3331 234567"
+
+#: metaboxes/events.php:155
+msgid "Contact Email"
+msgstr "التواصل عبر البريد الإلكتروني"
+
+#: metaboxes/events.php:157
+msgid "abc@xyz.com"
+msgstr "abc@xyz.com"
+
+#: metaboxes/events.php:161
+msgid "Event Start Date"
+msgstr "تاريخ بدء الفاعلية"
+
+#: metaboxes/events.php:164
+msgid "Select event start date."
+msgstr "حدد تاريخ بدء الحدث."
+
+#: metaboxes/events.php:168
+msgid "Event End Date"
+msgstr "تاريخ انتهاء الفاعلية"
+
+#: metaboxes/events.php:171
+msgid "Select event end date."
+msgstr "حدد تاريخ انتهاء الحدث."
+
+#: metaboxes/events.php:175
+msgid "Event Location"
+msgstr "مكان الفعالية"
+
+#: metaboxes/events.php:179
+msgid "Location of your event."
+msgstr "موقع الحدث الخاص بك."
+
+#: metaboxes/events.php:183 metaboxes/listings.php:452
+msgid "Map"
+msgstr "خريطة"
+
+#: metaboxes/events.php:189
+msgid "Latitude"
+msgstr "خط العرض"
+
+#: metaboxes/events.php:195
+msgid "Longitude"
+msgstr "خط الطول"
+
+#: metaboxes/events.php:201 metaboxes/listings.php:504
+msgid "Facebook"
+msgstr "فيسبوك "
+
+#: metaboxes/events.php:204 metaboxes/listings.php:507
+msgid "Your facebook URL"
+msgstr "رابط الفيسبوك"
+
+#: metaboxes/events.php:208 metaboxes/listings.php:511
+msgid "Twitter"
+msgstr "تويتر"
+
+#: metaboxes/events.php:211 metaboxes/listings.php:514
+msgid "Your Twitter URL"
+msgstr "رابط تويتر"
+
+#: metaboxes/events.php:215 metaboxes/listings.php:518
+msgid "Google Plus"
+msgstr "جوجل بلس"
+
+#: metaboxes/events.php:218 metaboxes/listings.php:521
+msgid "Your Google Plus URL"
+msgstr "عنوان URL الخاص بك في Google Plus"
+
+#: metaboxes/events.php:222 metaboxes/listings.php:525
+msgid "Linked IN"
+msgstr "مرتبطة في"
+
+#: metaboxes/events.php:225 metaboxes/listings.php:528
+msgid "Your Linked IN URL"
+msgstr "عنوان URL المرتبط"
+
+#: metaboxes/events.php:229 metaboxes/listings.php:532
+msgid "Youtube URL"
+msgstr "رابط يوتيوب"
+
+#: metaboxes/events.php:232 metaboxes/listings.php:535
+msgid "Your Youtube URL"
+msgstr "عنوان URL الخاص بك علي Youtube"
+
+#: metaboxes/events.php:236 metaboxes/listings.php:539
+msgid "Instagram URL"
+msgstr "رابط انستجرام"
+
+#: metaboxes/events.php:239 metaboxes/listings.php:542
+msgid "Your Instagram URL"
+msgstr "URL الخاص بك اينستاجرام"
+
+#: metaboxes/events.php:331
+msgid "Assign Events to Authors"
+msgstr "تعيين الاحداث للمؤلفين"
+
+#: metaboxes/events.php:342 metaboxes/listings.php:1034
+msgid "Select author"
+msgstr "ببژێردنی نووسەر"
+
+#: metaboxes/events.php:355 metaboxes/listings.php:1047
+msgid "Assign listing to any other author"
+msgstr "تعيين قائمه لأي مؤلف آخر"
+
+#: metaboxes/form_fields.php:24
+msgid "Listing Custom Fields"
+msgstr "بحث الحقول المخصصة"
+
+#: metaboxes/form_fields.php:82
+msgid "Field Type"
+msgstr "حقل نوع السعر"
+
+#: metaboxes/form_fields.php:85
+msgid "Text Field"
+msgstr ""
+"القسم أدناه هو فقط إذا كنت قد اشتريت IOS App. ثم تشغيله وادخل رمز الشراء في "
+"حقل النص أدناه التي ستظهر."
+
+#: metaboxes/form_fields.php:86
+msgid "Multi Checkboxes"
+msgstr "خانات متعددة"
+
+#: metaboxes/form_fields.php:87
+msgid "Radio Buttons"
+msgstr "ازرار الاختيار من متعدد"
+
+#: metaboxes/form_fields.php:88
+msgid "Dropdowns"
+msgstr "فوق هيدر الشريط الجانبي"
+
+#: metaboxes/form_fields.php:90
+msgid "Select field type"
+msgstr "حدد نوع الحقل"
+
+#: metaboxes/form_fields.php:96
+msgid "Add Checkbox Values"
+msgstr "أضافه قيم خانه الاختيار"
+
+#: metaboxes/form_fields.php:98 metaboxes/form_fields.php:106
+#: metaboxes/form_fields.php:114
+msgid "Option 1|Option 2|Option 3|"
+msgstr "مفصوله | مثل الخيار 1 | الخيار 2"
+
+#: metaboxes/form_fields.php:99 metaboxes/form_fields.php:107
+#: metaboxes/form_fields.php:115
+msgid "eg Option 1|Option 2|Option 3"
+msgstr "مفصوله | مثل الخيار 1 | الخيار 2"
+
+#: metaboxes/form_fields.php:104
+msgid "Add Radio Values"
+msgstr "القيم للتحديد/قائمة"
+
+#: metaboxes/form_fields.php:112
+msgid "Select Options"
+msgstr "حدد خيارات (للحصول علي قائمه المستوي الأول القائمة الكبرى فقط)"
+
+#: metaboxes/form_fields.php:121
+msgid "Select Category For Field"
+msgstr "التصنيف"
+
+#: metaboxes/form_fields.php:125
+msgid "Select All"
+msgstr "Select Category ( All or Selective )"
+
+#: metaboxes/form_fields.php:126
+msgid "Un Select"
+msgstr "اختر الخريطة"
+
+#: metaboxes/google_map.php:14
+msgid "Country"
+msgstr "الدولة"
+
+#: metaboxes/google_map.php:15
+msgid "This should be follow ISO2 like"
+msgstr "وهذا ينبغي أن يكون اتباع مثل ISO2"
+
+#: metaboxes/google_map.php:15
+msgid "US"
+msgstr "عن الشركة (جديد)"
+
+#: metaboxes/google_map.php:15
+msgid "for USA and"
+msgstr "للولايات المتحدة الأمريكية و"
+
+#: metaboxes/google_map.php:15
+msgid "CA"
+msgstr "CA"
+
+#: metaboxes/google_map.php:15
+msgid "for Canada"
+msgstr "Canada"
+
+#: metaboxes/google_map.php:15
+msgid "Read More."
+msgstr "المزيد"
+
+#: metaboxes/listings.php:21
+msgid "Listing Fields"
+msgstr "سرد الحقول المشتركة"
+
+#: metaboxes/listings.php:199 metaboxes/listings.php:635
+msgid "Select Your Country"
+msgstr "اختر المدينة"
+
+#: metaboxes/listings.php:200 metaboxes/listings.php:646
+msgid "Select Your State"
+msgstr "اختار فئة"
+
+#: metaboxes/listings.php:201 metaboxes/listings.php:657
+msgid "Select Your City"
+msgstr "اختر مدينتك"
+
+#: metaboxes/listings.php:202 metaboxes/listings.php:668
+msgid "Select Your Town"
+msgstr "اختر مدينتك"
+
+#: metaboxes/listings.php:302
+msgid "From"
+msgstr "من"
+
+#: metaboxes/listings.php:305 metaboxes/listings.php:314
+msgid "Select your business hours"
+msgstr "حدد ساعات العمل"
+
+#: metaboxes/listings.php:311
+msgid "To"
+msgstr "إلى"
+
+#: metaboxes/listings.php:321
+msgid "Closed"
+msgstr "مغلق"
+
+#: metaboxes/listings.php:375
+msgid "Listing Gallery Images"
+msgstr "قائمه صور المعرض"
+
+#: metaboxes/listings.php:381
+msgid "Select Business Category"
+msgstr "حدد التصنيف المناسب لإعلانك"
+
+#: metaboxes/listings.php:388
+msgid "Amenties"
+msgstr "امينتيس"
+
+#: metaboxes/listings.php:395
+msgid "Additional Fields"
+msgstr "خقول إضافية"
+
+#: metaboxes/listings.php:413
+msgid "Select Brand Logo"
+msgstr "حدد شعار العلامة التجارية"
+
+#: metaboxes/listings.php:472
+msgid "Select Price Type"
+msgstr "حدد نوع السعر"
+
+#: metaboxes/listings.php:476
+msgid "It will show your business price range"
+msgstr "وسوف تظهر لك نطاق أسعار الاعمال"
+
+#: metaboxes/listings.php:482
+msgid "Select Currency Type"
+msgstr "تحديد نوع العملة"
+
+#: metaboxes/listings.php:486
+msgid "Select your business currency type"
+msgstr "حدد نوع عمله العمل"
+
+#: metaboxes/listings.php:493 metaboxes/listings.php:500
+msgid "Ignore this if your buisness does not have any specific price to show"
+msgstr "تجاهل هذا إذا لم يكن لديك الاعمال اي سعر محدد لإظهار"
+
+#: metaboxes/listings.php:546 metaboxes/packages.php:176
+msgid "Business Hours"
+msgstr "ساعات العمل"
+
+#: metaboxes/listings.php:556
+msgid "Open 24/7"
+msgstr "ال24/7 المفتوحة"
+
+#: metaboxes/listings.php:560
+msgid "Selective Hours"
+msgstr "ساعات مختاره"
+
+#: metaboxes/listings.php:565
+msgid "Want to show business hours? ignore this if you dont want to show"
+msgstr "هل تريد إظهار ساعات العمل ؟ تجاهل هذا إذا كنت لا تريد ان تظهر"
+
+#: metaboxes/listings.php:577
+msgid "Select your timezone"
+msgstr "اختر التوقيت الزمني"
+
+#: metaboxes/listings.php:600
+msgid "Save 20%"
+msgstr "وفر 20%"
+
+#: metaboxes/listings.php:601 metaboxes/listings.php:608
+msgid "Ignore this if your buisness does have any coupon"
+msgstr "تجاهل هذا إذا كان لديك الاعمال لديك اي قسيمة"
+
+#: metaboxes/listings.php:607
+msgid "#12356-12"
+msgstr "#12356-12"
+
+#: metaboxes/listings.php:615
+msgid "Website Referal link related to coupon"
+msgstr "رابط الموقع المتعلقة القسيمة"
+
+#: metaboxes/listings.php:639 metaboxes/listings.php:650
+#: metaboxes/listings.php:661 metaboxes/listings.php:672
+msgid "Ignore this if dont want to show."
+msgstr "تجاهل هذا إذا كنت لا تريد ان تظهر."
+
+#: metaboxes/listings.php:676
+msgid "Booking With Timekit"
+msgstr "الحجز مع Timekit"
+
+#: metaboxes/listings.php:678
+msgid "Timekit Widget Goes Here only code with <script></script>"
+msgstr "Timekit القطعة يذهب هنا فقط رمز مع<script></script>"
+
+#: metaboxes/listings.php:679
+msgid "Booking widget will only shows when enable from admin panel."
+msgstr "وسوف تظهر القطعة الحجز فقط عند تمكين من لوحه الاداره."
+
+#: metaboxes/listings.php:927
+msgid "Mark Listing As Featured"
+msgstr "وضع علامة علي القائمة المميزة"
+
+#: metaboxes/listings.php:949
+msgid "Do you want to make this listing as featured!"
+msgstr "هل تريد ان تجعل هذه القائمة كما ظهرت!"
+
+#: metaboxes/listings.php:953 metaboxes/packages.php:143
+#: metaboxes/packages.php:153 metaboxes/packages.php:171
+#: metaboxes/packages.php:181 metaboxes/packages.php:191
+#: metaboxes/packages.php:209 metaboxes/packages.php:219
+#: metaboxes/packages.php:229
+msgid "No"
+msgstr "لا"
+
+#: metaboxes/listings.php:957 metaboxes/packages.php:142
+#: metaboxes/packages.php:152 metaboxes/packages.php:170
+#: metaboxes/packages.php:180 metaboxes/packages.php:190
+#: metaboxes/packages.php:208 metaboxes/packages.php:218
+#: metaboxes/packages.php:228
+msgid "Yes"
+msgstr "نعم"
+
+#: metaboxes/listings.php:961 metaboxes/packages.php:130
+msgid "Featured For"
+msgstr "مميز"
+
+#: metaboxes/listings.php:963
+msgid "Expiry in days, -1 means never expired."
+msgstr "انتهاء الصلاحية بالأيام--1 يعني أبدا انتهت."
+
+#: metaboxes/listings.php:964
+msgid "Changes in days will impact on user package featured expiry days."
+msgstr "التغييرات في الأيام سوف تؤثر علي حزمه المستخدم أيام انتهاء مميزه."
+
+#: metaboxes/listings.php:1023
+msgid "Assign Listing to Authors"
+msgstr "تعيين قائمه للمؤلفين"
+
+#: metaboxes/locations.php:23 metaboxes/locations.php:38
+msgid "Image"
+msgstr "صوره"
+
+#: metaboxes/locations.php:27 metaboxes/locations.php:49
+msgid "Add Image"
+msgstr "إضافة صورة"
+
+#: metaboxes/locations.php:28 metaboxes/locations.php:50
+msgid "Remove Image"
+msgstr "احذف صورة"
+
+#: metaboxes/packages.php:22
+msgid "For Packages"
+msgstr "للحزم"
+
+#: metaboxes/packages.php:85
+msgid "Package Type"
+msgstr "نوع الحزمة"
+
+#: metaboxes/packages.php:86
+msgid "Select package type whether it's a paid package or free"
+msgstr "حدد نوع الحزمة سواء كانت حزمه مدفوعة الأجر أو مجانية"
+
+#: metaboxes/packages.php:88
+msgid "Free"
+msgstr "مجاني"
+
+#: metaboxes/packages.php:89
+msgid "Paid"
+msgstr "مدفوع"
+
+#: metaboxes/packages.php:94
+msgid "Package Expiry"
+msgstr "انتهاء صلاحية الباقة"
+
+#: metaboxes/packages.php:95 metaboxes/packages.php:105
+#: metaboxes/packages.php:131
+msgid "Expiry in days, -1 means never expired unless used it."
+msgstr "انتهاء الصلاحية بالأيام--1 يعني أبدا انتهت صلاحيتها الا إذا استخدمت."
+
+#: metaboxes/packages.php:97
+msgid "Number of days eg 60."
+msgstr "عدد الأيام علي سبيل المثال 60."
+
+#: metaboxes/packages.php:104
+msgid "Listing Expiry"
+msgstr "تاريخ صلاحية القائمة"
+
+#: metaboxes/packages.php:107
+msgid "Number of days eg 20."
+msgstr "عدد الأيام على سبيل المثال 20."
+
+#: metaboxes/packages.php:114
+msgid "Regular Listing"
+msgstr "القائمة العادية"
+
+#: metaboxes/packages.php:115
+msgid "Total number of regular listings."
+msgstr "العدد الإجمالي للقوائم العادية."
+
+#: metaboxes/packages.php:117
+msgid "eg 10"
+msgstr "علي سبيل المثال 10"
+
+#: metaboxes/packages.php:122
+msgid "Featured Listing"
+msgstr "مميز"
+
+#: metaboxes/packages.php:123
+msgid "Total number of featured listings."
+msgstr "العدد الإجمالي للقوائم المميزة."
+
+#: metaboxes/packages.php:125
+msgid "eg 5"
+msgstr "علي سبيل المثال 5"
+
+#: metaboxes/packages.php:133
+msgid "number of days eg 7"
+msgstr "عدد الأيام علي سبيل المثال 7"
+
+#: metaboxes/packages.php:138
+msgid "Video Listing"
+msgstr "قائمه الفيديو"
+
+#: metaboxes/packages.php:139
+msgid "Want to give user an option to post video link during ad listing."
+msgstr "نريد ان نعطي المستخدم خيارا لنشر وصله الفيديو خلال قائمه الإعلانات."
+
+#: metaboxes/packages.php:148
+msgid "Website Link"
+msgstr "الموقع الالكتروني"
+
+#: metaboxes/packages.php:149
+msgid "Want to give user an option to post web link during ad listing."
+msgstr "نريد ان نعطي المستخدم خيارا لنشر رابط الويب خلال قائمه الإعلانات."
+
+#: metaboxes/packages.php:158
+msgid "No of Images"
+msgstr "عدد الصور"
+
+#: metaboxes/packages.php:159
+msgid "No of image during post a listing."
+msgstr "لا من الصورة اثناء نشر القائمة."
+
+#: metaboxes/packages.php:161
+msgid "5"
+msgstr "الشبكة 5"
+
+#: metaboxes/packages.php:166
+msgid "Price Range"
+msgstr "نطاق السعر"
+
+#: metaboxes/packages.php:167
+msgid "Want to give user an option to select pricing range."
+msgstr "تريد إعطاء المستخدم خيار لتحديد نطاق التسعير."
+
+#: metaboxes/packages.php:177
+msgid "Want to give user an option to select business hours."
+msgstr "تريد إعطاء المستخدم خيار لتحديد ساعات العمل."
+
+#: metaboxes/packages.php:186
+msgid "Allow Tags"
+msgstr "السماح بالعلامات"
+
+#: metaboxes/packages.php:187
+msgid "Want to give user an option to post tags during listing."
+msgstr "تريد إعطاء المستخدم خيارا لنشر العلامات اثناء الادراج."
+
+#: metaboxes/packages.php:196
+msgid "Bump Up Listing"
+msgstr "نتوء حتى القائمة"
+
+#: metaboxes/packages.php:197
+msgid "Total number of bump up listings."
+msgstr "العدد الإجمالي لقوائم النتوءات."
+
+#: metaboxes/packages.php:199
+msgid "eg 3"
+msgstr "علي سبيل المثال 3"
+
+#: metaboxes/packages.php:204
+msgid "Make Package Featured"
+msgstr "جعل حزمه المميز"
+
+#: metaboxes/packages.php:205
+msgid "Do you want to highlight this package."
+msgstr "هل تريد تمييز هذه الحزمة."
+
+#: metaboxes/packages.php:214
+msgid "Allow Coupon Code"
+msgstr "السماح برمز القسيمة"
+
+#: metaboxes/packages.php:215
+msgid "Allow coupon code option while listing."
+msgstr "السماح بخيار رمز القسيمة اثناء الادراج."
+
+#: metaboxes/packages.php:224
+msgid "Create Event"
+msgstr "إنشاء فعالية"
+
+#: metaboxes/packages.php:225
+msgid "Allow events option while listing."
+msgstr "خيار السماح بالاحداث اثناء السرد."
+
+#: metaboxes/packages.php:310
+msgid "In App Packages Keys"
+msgstr "في مفاتيح حزم التطبيق"
+
+#: metaboxes/packages.php:339
+msgid "Android Package ID"
+msgstr "معرف حزمة الروبوت"
+
+#: metaboxes/packages.php:342 metaboxes/packages.php:352
+msgid "#12345"
+msgstr "#12345"
+
+#: metaboxes/packages.php:349
+msgid "IOS Package ID"
+msgstr "معرّف حزمة IOS"
+
+#: redux-extensions/extensions-init.php:77
+msgid ""
+"Best if used on new WordPress install & this theme requires PHP version 7.0+"
+msgstr ""
+"أفضل إذا ما استخدمت علي تثبيت وورد الجديدة وهذا الموضوع يتطلب PHP الإصدار "
+"7.0 +"
+
+#: redux-extensions/extensions-init.php:78
+msgid "Images are for demo purpose only."
+msgstr "الصور للعرض التوضيحي فقط."
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:236
+msgid "Demo Already Imported"
+msgstr "سبق وتم إستيراد بينات الديمو"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:262
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:264
+msgid "Demo Importer"
+msgstr "استراد النسخة التجربية"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:269
+msgid "Works best to import on a new install of WordPress"
+msgstr "يعمل بشكل أفضل للاستيراد على تثبيت جديد من وردبريس"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:312
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:386
+msgid "Home"
+msgstr "الرئيسية"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:318
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:392
+msgid "Blog"
+msgstr "المدونة"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:324
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:398
+msgid "Search"
+msgstr "بحث"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:330
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:404
+msgid "Packages"
+msgstr "الباقات"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:338
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:445
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:410
+msgid "Pages"
+msgstr "الصفحات"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:417
+msgid "About Us"
+msgstr "معلومات عنا"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:431
+msgid "Contact Us"
+msgstr "الإعجاب بصفحتنا على الفيسبوك"
+
+#: redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:438
+msgid "Theme Icons"
+msgstr "أيقونات القالب"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:42
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:72
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "لا توجد أخطاء أثناء قراءة ملف WXR"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr "التفاصيل ظاهره بالأعلى. المستورد سوف يحاول مره أخرى الآن بقارئ مختلف"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:84
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:89
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:279
+#: redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "لا يبدو أن هذا الملف من النوع WXR, أو أن رقم الإصدار مفقود/غيرصالح"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:255
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+"الملف المستورد والمتعلق بخيارات التصميم لا يمكن العثور عليه. الرجاء المحاولة "
+"مرة آخرى."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:330
+msgid "Widget Import file could not be found. Please try again."
+msgstr "لا يمكن العثور على قطعة الاستيراد. الرجاء المحاولة مرة آخرى."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:404
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr "الشريط الجانبي غير موجود في المظهر (باستخدام غير نشط)"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:426
+msgid "Site does not support widget"
+msgstr "الموقع لا يدعم الودجات"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:449
+msgid "Widget already exists"
+msgstr "البريد الكتروني موجود بالفعل."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:498
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Imported"
+msgstr "تم الاستيراد"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:501
+msgid "Imported to Inactive"
+msgstr "إعلانات غير نشطة"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:508
+msgid "No Title"
+msgstr "بلا عنوان"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:132
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:141
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:192
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:196
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr "تم تحديث تقييمك"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr "الملف غير موجود، يرجى المحاولة مرة أخرى."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "All done."
+msgstr "الكل"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr "حقائق ممتعة"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "تذكر تحديث كلمات السر وأدوار المستخدمين المستوردة."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"ملف التصدير غير موجود في <code>%s</code>. يبدو أن هذه المشكله هي مشكلة "
+"صلاحيات"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"ملف WXR هذا (الإصدار %s) يمكن أن يكون غير مدعوم بواسطة هذا الإصدار من "
+"المستورد. فضلا قم بالتحديث"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr "فشل في استيراد %s.. سيتم تحويل المقالات للمستخدم الحالي."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr "تعيين المؤلف"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"لجعل لجعل العمل اسهل بالنسبة لك لتحرير وحفظ المحتوى الذي تم استيراده، قد "
+"ترغب في إعادة تعيين مالك المحتوى الذي يتم استيراده إلى مستخدم موجود في هذا "
+"الموقع. على سبيل المثال، قد ترغب في استيراد جميع المدخلات كمدخلات <code> "
+"المشرف </code>"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"إذا تم إنشاء مستخدم جديد بواسطة ووردبريس، كلمة مرور جديدة سيتم إنشائها "
+"عشوائيا وسيتم تعيين المستخدم الجديد ك&#8217;s. التغيير اليدوي %s.لتفاصيل "
+"المستخدم الجديد &#8217;s سيكون ضروريا."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr "استيراد المرفقات"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr "تحميل و استيراد الملفات المرفقه"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr "إرسال"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr "استيراد المؤلف:"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr "أو إنشاء مستخدم جديد مع اسم الدخول:"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr "كمستخدم جديد:"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr "تعيين مشاركات لمستخدم حالي:"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr "او تعيين مشاركات لمستخدم حالي:"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr "- تحديد -"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr "فشل إنشاء مستخدم جديد ل %s يمكن أن تعزى مناصبهم للمستخدم الحالي."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:424
+#, php-format
+msgid "Failed to import category %s"
+msgstr "فشل في استيراد التصنيف %s"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:467
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "فشل في استيراد سمات المقال %s"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:516
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "فشل تثبيت %1$s."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "فشل في إستيراد &#8220;%s&#8221;: نوع محتوى خاطئ %s"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; موجود بالفعل."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:704
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "فشل في استيراد %s &#8220;%s&#8221;"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:870
+msgid "Menu item skipped due to missing menu slug"
+msgstr "عنصر القائمة تخطي بسبب سبيكة القائمة المفقودة"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:877
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "عنصر القائمة تخطي بسبب سبيكة القائمة ؟؟؟ صالحة: %s"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:940
+msgid "Fetching attachments is not enabled"
+msgstr "تمكين"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:953
+msgid "Invalid file type"
+msgstr "النوع"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1003
+msgid "Remote server did not respond"
+msgstr "الخادم لم يستجب"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1011
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "السيرفر قام بالرد كخطأ كالتالي:  %1$d %2$s"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1018
+msgid "Remote file is incorrect size"
+msgstr "حجم الملف غير صحيح"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1023
+msgid "Zero size file downloaded"
+msgstr "حجم الملفات المحمله صفر"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1029
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "الملف كبير جدا, أقصى حجم هو  %s"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1129
+msgid "Import WordPress"
+msgstr "ورد"
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1136
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"نسخة جديدة متاحة من هذا المستورد Genius Icon. يرجى تحديث الإصدار إلى %s "
+"لضمان التوافق مع ملفات التصدير الجديدة."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1151
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"مرحبا! تحميل الخاص بك WordPress تمديد RSS ملف (WXR) وسنقوم باستيراد المقال، "
+"صفحة، التعليقات، حقول مخصصة، والفئات، والعلامات في هذا الموقع."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1152
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "اختار a WXR (.xml) ليتم رفعه ثم اضغط رفع واستيراد."
+
+#: redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1226
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"استيراد <strong>مقالات, صفحات, تعليقات, حقول مخصصة, فئات, و tags</strong> من "
+"نلف مصدر من ورد بريس."
+
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:94
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:115
+msgid "Import Demo"
+msgstr "عرض الغرض"
+
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:98
+msgid "Demo Imported"
+msgstr "تم إستيراد الديمو"
+
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:115
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Please Wait..."
+msgstr "يرجى الانتظار ..."
+
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:119
+msgid "Re-Import"
+msgstr "إعادة الاستيراد"
+
+#: redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:128
+msgid "No Demo Data Provided"
+msgstr "لم يتم تقديم أية بيانات تجريبية"
+
+#. Plugin Name of the plugin/theme
+msgid "DWT Listing Framework"
+msgstr "الإطار القائمة DWT"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/scriptsbundle/"
+msgstr "https://themeforest.net/user/scriptsbundle/"
+
+#. Description of the plugin/theme
+msgid "This plugin is essential for the proper theme funcationality."
+msgstr "هذا البرنامج المساعد ضروري لموضوع المناسبة funcationality."
+
+#. Author of the plugin/theme
+msgid "Scripts Bundle"
+msgstr "حزمه مخطوطات"
